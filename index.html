@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+   <head>
+      <title>CMS Module - Text content to brand page</title>
+      <meta name="description" content="Lorem Epsilum">
+      <meta charset="UTF-8">
+      <!-- Font -->
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+      <!-- /. Font -->
+      <!-- CSS -->
+      <style>
+         body{
+         font-family:'Roboto', sans-serif;
+         height:100%;
+         color: #333;
+         }
+         .main {
+         max-width:960px;
+         margin:0 auto;
+         }
+         .text-uppercase{
+         text-transform:uppercase;
+         color: #b08453;
+         }
+         a, .breadcrumbs a.active{
+         font-weight:bold;
+         cursor:pointer;
+         }
+         a, a:hover, .breadcrumbs a:hover{
+         color:#333;
+         text-decoration: underline;
+         }
+         a:hover{
+         color: #b08453;
+         }
+         .breadcrumbs a {
+         font-weight:normal;
+         text-decoration: none;
+         }
+         h1 {
+         font: normal 30px/43px 'Roboto', sans-serif;
+         }
+         #container {
+         margin: 15px 0px;
+         }
+         #content {
+         float: left;
+         width: 60%;
+         padding:2% 1%;
+         text-align: left;
+         }
+         aside {
+         float: right;
+         width: 35%;
+         padding:2% 1%;
+         }
+         aside img {
+         position: relative;
+         width:100%;
+         height: auto;
+         }
+         .clear {
+         clear: both;
+         }
+         ul{
+         list-style: none;
+         }
+         ul li{
+         display: inline-block;
+         }
+         .breadcrumbs {
+         font: 11px/40px "Lucida Grande", sans-serif;
+         padding: 0 10px;
+         width: 100%;
+         }
+         .breadcrumbs ul {
+         margin: 0px 0px 10px 0px;
+         }
+         table { 
+         width: 100%; 
+         border-collapse: collapse; 
+         }
+         td, th { 
+         padding: 6px; 
+         text-align: left; 
+         }
+         @media all and (max-width: 768px) {
+         #content {
+         width: 94%;
+         padding: 3%;
+         }
+         #sidebar {
+         width: 94%;
+         padding: 3%;
+         margin: 0 auto;
+         text-align: center;
+         }
+         }
+      </style>
+      <!-- /.CSS -->
+   </head>
+   <body>
+      <div class="main">
+         <!-- Start -->
+         <div class="banner-brand">
+            <div id="container">
+               <!-- Section -->
+               <section id="content">
+                  <h1>Brand Name</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id nunc ornare, bibendum nunc vitae, vestibulum quam. Nullam a lorem  massa elementum dapibus. Morbi etposuere erat. Praesent commodo lorem in finibus rhoncus. Aliquam varius nibh et justo venenatis, at pretium lectus aliquet.
+                  </p>
+                  <!-- Table -->
+                  <table>
+                     <tbody>
+                        <tr>
+                           <td><a href="" title="Dresses">Dresses</a></td>
+                           <td><a href="" title="Tops">Tops</a></td>
+                           <td><a href="" title="Bodysuits">Bodysuits</a></td>
+                           <td><a href="" title="Pants">Pants</a></td>
+                           <td><a href="" title="Sale" class="text-uppercase">Sale</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <!-- /.Table -->
+               </section>
+               <!-- /. Section -->
+               <!-- Sidebar -->
+               <aside id="sidebar">
+                  <img src="http://placehold.it/760x540">
+               </aside>
+               <!-- /. Sidebar -->
+               <div class="clear"></div>
+            </div>
+         </div>
+         <!-- Breadcrumbs -->
+         <div class="breadcrumbs">
+            <ul>
+               <li>
+                  <a href="../" title="Go to Home Page">Home</a>
+                  <span>&rang;</span>
+               </li>
+               <li class="active">
+                  <strong>Brand Name</strong>
+               </li>
+            </ul>
+         </div>
+         <!-- /. Breadcrumbs -->
+         <!-- END --> 
+      </div>
+   </body>
+</html>
